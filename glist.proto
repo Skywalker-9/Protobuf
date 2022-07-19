@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message sample_glist
+{
+    repeated string data = 1;
+}
+
+/*
+message Name
+{
+    string name = 1;
+    int32 id = 2;
+    string address = 3;
+    repeated string belongings = 4;
+}
+*/
